@@ -49,9 +49,6 @@ void generate_random_pattern(){
     }
   }  else if (pattern == 2){
 
-    //  giving green color to all pixels
-    //pixels.show();
-
     //  fade up
     for (int i = 0; i <= 255; i++){
       for (int j = 0; j < led_num; j++){
